@@ -1,0 +1,138 @@
+body {
+    background-color:cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin: auto 0;
+}
+
+header {
+    background-color: indianred;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: cadetblue;
+    color: #ffffff;
+}
+  
+/* Light Theme */
+.light-theme {
+    background-color: antiquewhite;
+    color: darkcyan;
+}
+
+/* Pastel Theme */
+.pastel-theme {
+    background-color: lightpink;
+    color: mediumslateblue;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* Solid lilne */
+.solid-line {
+    border: red solid 5px;
+    border-radius: 30px;
+}
+
+/* Dot lilne */
+.dotted-line {
+    border: red dotted 5px;
+    border-radius: 30px;
+}
+
+/* Dashed lilne */
+.dashed-line {
+    border: red dashed 5px;
+    border-radius: 30px;
+}
+
+/* Double lilne */
+.double-line {
+    border: red double 5px;
+    border-radius: 30px;
+}
+
+button {
+    width: 350px;
+    background-color: coral;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.5rem;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 50%;
+}
+
+.wrapper {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.wrapper div {
+    width: 50%;
+}
+
+.panel {
+    margin-top: 20px;
+    background-color: bisque;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-lines select,
+.custom-themes select {
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: palevioletred;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .wrapper div {
+        width: 90%;
+    }
+  }
+
+
+
+
+
+
